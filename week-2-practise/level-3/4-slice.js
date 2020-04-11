@@ -5,7 +5,10 @@
 // - insert the replacement value at the provided index
 //NOT COMPLETED
 function replace(arr, index, value) {
-  return arr[index]=value; // complete this statement
+  const head = arr.slice(0,index);
+  const tail = arr.slice(index+1, arr.length);
+  const x = head.concat(value).concat(tail);
+  return  x; // complete this statement
 }
 
 /* 

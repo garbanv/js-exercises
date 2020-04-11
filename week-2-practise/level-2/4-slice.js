@@ -10,7 +10,7 @@ function remove(arr, index) {
   let z = x.concat(y)
   return z; // complete this statement
 }
-// NOT COMPLETED
+
 /* 
   DO NOT EDIT BELOW THIS LINE
   --------------------------- */

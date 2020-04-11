@@ -5,7 +5,7 @@
 // Tip: write other small functions for each requirement
 
 
-// NOT COMPLETED
+
 var excludedNums = [6, 14, 91, 111];
 
 function isANumber (num){
@@ -16,10 +16,16 @@ function isANumber (num){
   }
 
 function isOrNotInteger(num){
-  return Number.isInteger(x)
+  return Number.isInteger(num)
 }
 
-function validate(num) {}
+function isEqual(num){
+return !excludedNums.includes(num);
+}
+
+function validate(num) {
+  return isANumber && isOrNotInteger && isEqual;
+}
 
 console.log(validate(6));
 console.log(validate(10.5));
