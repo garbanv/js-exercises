@@ -3,12 +3,12 @@
 // - NOT change the original array
 // - return a new array with the replacement value inserted
 // - insert the replacement value at the provided index
-//NOT COMPLETED
+// COMPLETED
 function replace(arr, index, value) {
   const head = arr.slice(0,index);
   const tail = arr.slice(index+1, arr.length);
-  const x = head.concat(value).concat(tail);
-  return  x; // complete this statement
+  const x = head.concat(tail);
+  return  x;// complete this statement
 }
 
 /* 

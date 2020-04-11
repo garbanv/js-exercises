@@ -6,6 +6,9 @@
 // - return a new array with the replacement value inserted
 //NOT COMPLETED
 function replace(arr, valueToReplace, newValue) {
+  const head = arr.slice(0,index);
+  const tail = arr.slice(index+1, arr.length);
+  const x = head.concat(tail);
   return; // complete this statement
 }
 
