@@ -7,7 +7,7 @@
 function remove(arr, index) {
   return; // complete this statement
 }
-
+// NOT COMPLETED
 /* 
   DO NOT EDIT BELOW THIS LINE
   --------------------------- */
