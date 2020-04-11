@@ -3,9 +3,9 @@
 // - NOT change the original array
 // - return a new array with the replacement value inserted
 // - insert the replacement value at the provided index
-
+//NOT COMPLETED
 function replace(arr, index, value) {
-  return; // complete this statement
+  return arr[index]=value; // complete this statement
 }
 
 /* 

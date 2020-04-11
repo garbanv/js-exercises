@@ -4,7 +4,20 @@
 // - is not equal any of the numbers in the array `excludedNums`
 // Tip: write other small functions for each requirement
 
+
+// NOT COMPLETED
 var excludedNums = [6, 14, 91, 111];
+
+function isANumber (num){
+  if (typeof num === "number"){
+      return true;
+  }
+    return false;
+  }
+
+function isOrNotInteger(num){
+  return Number.isInteger(x)
+}
 
 function validate(num) {}
 

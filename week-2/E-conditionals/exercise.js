@@ -14,3 +14,9 @@ EXPECTED RESULT
 ---------------
 Hi, I'm Daniel, I'm a mentor.
 */
+
+if (danielsRole === "mentor") {
+  console.log("yes")
+} else {
+  console.log("no mentor")
+}
