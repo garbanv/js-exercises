@@ -4,7 +4,10 @@
 
 var nums = [10, 1, 5, 29, 100];
 var nums2 = [11, 6, 3, 29, 12];
-var sortedNums; // complete this statement
+var nums3 = nums.concat(nums2);
+var sortedNums= nums3.sort(function(a, b) {
+  return a - b;
+}); // complete this statement // complete this statement
 
 console.log(sortedNums);
 
