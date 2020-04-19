@@ -4,6 +4,7 @@ You have an array named "attendanceCounts"  which contains all the students' nam
 Produce a new array named "eligibleStudentNames" containing only the NAMES 
 of the students who have attended AT LEAST 8 classes.
 */
+//COMPLETED
 
 var attendances = [
   ["Ahmed", 8],
@@ -13,8 +14,14 @@ var attendances = [
   ["Tayoa", 11],
   ["Nina", 10]
 ];
-
-var eligibleStudentNames; // TODO: Complete this line.
+// for (x=0; x < attendances.length; x++) {
+//   console.log( attendances[x][0])
+// }
+var eligibleStudentNames = attendances.map(function(attendance,index){
+  if(attendance[1]>=8){
+    console.log(attendance[0])
+  }
+}); // TODO: Complete this line.
 
 console.log(eligibleStudentNames);
 

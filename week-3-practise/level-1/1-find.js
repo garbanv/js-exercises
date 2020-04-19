@@ -7,11 +7,11 @@ somewhere safe while they call home for help.
 To be safe, they need to land on the first unamed planet that has Oxygen levels between 19.5 % and 23.5 %.
 
 Find the oxygen level of the first safe planet - Oxygen between 19.5 and 23.5
-    */
+    */ 
 
 var oxygenLevels = [24.2, 11.3, 19.9, 23.1, 29.3, 20.2];
 
-var safeOxygenLevel; //Complete this statement
+var safeOxygenLevel= oxygenLevels.find((x)=> x > 19.5 && x <23.5 ); //Complete this statement
 
 console.log(safeOxygenLevel + "%");
 

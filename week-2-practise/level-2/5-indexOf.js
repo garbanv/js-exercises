@@ -4,7 +4,7 @@
 // - insert `newValue` at that index
 // - NOT change the original array
 // - return a new array with the replacement value inserted
-//NOT COMPLETED
+// COMPLETED
 function replace(arr, valueToReplace, newValue) {
   const head = arr.slice(0,arr.indexOf(valueToReplace));
   const tail = arr.slice(arr.indexOf(valueToReplace)+1, arr.length);

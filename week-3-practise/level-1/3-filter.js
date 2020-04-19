@@ -140,7 +140,14 @@ var streetNames = [
     "Widegate Street", "Willoughby Highwalk", "Wilson Street", "Wine Office Court",
     "Wood Street", "Wormwood Street", "Wrestler's Court"];
 
-var laneNames;  // Complete this line
+var laneNames = streetNames.filter(function(name){
+    if(name.indexOf("Lane") !== -1){
+    return name
+    }
+  });
+
+
+
 
 console.log(laneNames);
 console.log(laneNames.length);
@@ -153,3 +160,14 @@ console.log(laneNames.length);
  'Water Lane' ]
 74
 */
+
+
+// var encontrados = []
+// for (x= 0; x < nombres.length; x++){
+//   if(nombres[x].indexOf("garban") !== -1){
+//   console.log(nombres[x])
+//   encontrados.push(nombres[x])
+
+//   }
+// }
+// console.log(encontrados)
